@@ -1,0 +1,46 @@
+/* General Style Goes Here */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html {
+  font-size: 62.5%; /* font size 10px */
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1rem;
+  background-color: #ffffff;
+}
+.container {
+  width: 100%;
+}
+section {
+  font-size: 2rem;
+}
+h1 {
+  color: #000000;
+  font-size: 3rem;
+  text-align: center;
+}
+nav.menu_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav.menu_list ul {
+  display: inline;
+}
+nav.menu_list ul li {
+  list-style: none;
+}
+nav.menu_list ul li a {
+  font-size: 2rem;
+  color: #000000;
+  text-decoration: none;
+}
+nav.menu_list ul li a:hover {
+  text-decoration: underline;
+}
