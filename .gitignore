@@ -1,0 +1,5 @@
+# Ignore asset folder
+asset/
+
+# Ignore DS Store folder
+.DS_Store/
